@@ -629,6 +629,7 @@ window.PAC_CONFIG = {
   "commanditaire": "Théo Marczak",
   "entreprise": "Lumio Health",
   "dispositif": "PAC",
+  "accroche": "Tu es mandaté·e par <strong>Théo Marczak, CEO de Lumio Health</strong>, pour concevoir l'optimisation UX/UI de l'application <em>Lumio Pulse</em> — le wearable de gestion du stress en entreprise. Recherche utilisateur, prototypes fonctionnels, tests, accessibilité RGAA, collaboration avec les développeurs&nbsp;: chaque choix de design engage la crédibilité du produit face aux clients B2B et à Northgate Capital. Les utilisateurs ont des besoins critiques que les interfaces actuelles ne couvrent pas. <em>Le design n'est pas de la décoration. C'est la décision.</em>",
   "note_reflexive": false,
   "temps": [
     {
