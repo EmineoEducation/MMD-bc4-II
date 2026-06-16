@@ -540,9 +540,68 @@ window.LUMIO_DATA = {
     "footer": "<em>1 jour fictif ≈ 11 minutes réelles · ratio ×74</em>"
   },
   "trash": {
-    "title": "La corbeille est vide.",
-    "body": "Mais l'idée est bonne. La plupart des consultants commencent par jeter quelque chose."
-  },
+  "items": [
+    {
+      "name": "planning_v0.mpp",
+      "icon": "📊",
+      "size": "980 Ko",
+      "date": "sept.",
+      "isEgg": false
+    },
+    {
+      "name": "notes_perso.txt",
+      "icon": "📄",
+      "size": "4 Ko",
+      "date": "sept.",
+      "isEgg": false
+    },
+    {
+      "name": "Capture WhatsApp — Camille.png",
+      "icon": "🖼",
+      "size": "210 Ko",
+      "date": "V2",
+      "isEgg": true
+    }
+  ],
+  "egg": {
+    "contact": "Camille Ott",
+    "status": "vu à 23:40",
+    "meKey": "sonia",
+    "badge": "Conversation non destinée au dossier",
+    "messages": [
+      {
+        "from": "sonia",
+        "text": "Camille, entre nous — Jakob a demandé à Théo de couper le module accessibilité de la V2 pour tenir le délai",
+        "time": "23:18"
+      },
+      {
+        "from": "sonia",
+        "text": "Théo hésite. Si ça passe, on présente au jury une interface non-conforme RGAA. Devant des clients B2B qui ont signé sur cette promesse",
+        "time": "23:19"
+      },
+      {
+        "from": "camille",
+        "text": "j'ai trois contrats mutuelles qui tombent si on n'est pas conformes",
+        "time": "23:24"
+      },
+      {
+        "from": "camille",
+        "text": "dis à Théo que je démissionne avant de signer ce livrable",
+        "time": "23:25"
+      },
+      {
+        "from": "camille",
+        "text": "et les apprenants doivent le savoir. leur proposition doit défendre l'accessibilité coûte que coûte dans la présentation orale",
+        "time": "23:26"
+      },
+      {
+        "from": "sonia",
+        "text": "On est d'accord. Je ne livre pas une V2 qui sacrifie l'accessibilité. Je le porterai au board s'il le faut.",
+        "time": "23:31"
+      }
+    ]
+  }
+},
   "slack": {
     "workspace": "Lumio Health",
     "channels": [
