@@ -9,7 +9,7 @@
 import { createHash } from 'crypto';
 
 const BLOC_ID     = 'bc4-ii';     // ex: 'bc1', 'bc2'... ou 'cdrh-bc1'
-const PORTAL_HOST = 'msmc-pac.vercel.app'; // ex: 'msmc-pac.vercel.app', 'cdrh-pac.vercel.app'
+const PORTAL_HOST = 'mmd-pac.vercel.app'; // ex: 'msmc-pac.vercel.app', 'cdrh-pac.vercel.app'
 
 const PORTFOLIO_FROM =
   process.env.PORTFOLIO_FROM ||
