@@ -682,6 +682,26 @@ window.LUMIO_DATA = {
 
 window.PAC_CONFIG = {
   "bloc": "bc4-ii",
+  accroche_namescreen: {
+    "subtitle": "Design & expérience utilisateur (UX/UI)",
+    "role": "consultant·e UX/UI",
+    "intro": "Tu es {{STUDENT}}, consultant·e UX/UI chez Lumio Health pour la refonte de l'application wearable de gestion du stress (Projet Lumio Pulse). Études utilisateurs, prototypage, optimisation UX, normes d'accessibilité, collaboration développeurs, KPI : tu produis la proposition d'optimisation du design et de l'expérience utilisateur (E4-II).",
+    "ratio_label": "3 semaines dans la vraie vie",
+    "regles": [
+      {
+        "ico": "📄",
+        "txt": "Tout ce que tu sais, c'est dans les documents UX et les retours utilisateurs du poste de mission."
+      },
+      {
+        "ico": "🤐",
+        "txt": "Le jury évalue tes prototypes, l'optimisation UX mesurée et le respect des normes d'accessibilité."
+      },
+      {
+        "ico": "💬",
+        "txt": "Quand tu as une piste UX solide → Slack → ton commanditaire. Sa réaction débloque la suite."
+      }
+    ]
+  },
   "titre": "Concevoir et optimiser le design et l'expérience utilisateur des interfaces digitales au service d'un commanditaire",
   "epreuve": "E4-II. Proposition d'optimisation du design et de l'expérience utilisateur (UX/UI)",
   "deadline": "14 mars 2025 · 18h00",
