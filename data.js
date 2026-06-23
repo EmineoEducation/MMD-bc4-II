@@ -602,6 +602,35 @@ window.LUMIO_DATA = {
     ]
   }
 },
+  "voiceMemos": [
+    {
+      "title": "Réaction post-bêta — ce que j'ai vu sur le terrain",
+      "author": "Camille Ott",
+      "role": "Responsable partenariats B2B",
+      "date": "11 mars 2025",
+      "context": "mémo dicté depuis la voiture, retour terrain client",
+      "durationSec": 52,
+      "transcript": "Je sors du rendez-vous Malakoff Humanis. Ils ont testé la bêta de Lumio Pulse avec 40 salariés sur deux semaines. Le bilan est sans appel : 70 % n'ont pas dépassé l'étape de paramétrage. Leur DRH m'a montré les captures d'écran — c'est dense, c'est technique, ça ressemble à une interface médicale des années 2010. Leur DPO a aussi posé la question de la conformité RGAA — obligation légale pour eux. Sans ça, aucun déploiement possible sur leurs 12 000 salariés. Je remonte ça à Théo et Sonia ce soir. Le produit est bon. L'interface nous tue."
+    },
+    {
+      "title": "Note de design — ce qu'on ne peut pas garder en V2",
+      "author": "Yassine Morel",
+      "role": "Content Manager",
+      "date": "12 mars 2025",
+      "context": "mémo dicté entre deux réunions",
+      "durationSec": 61,
+      "transcript": "Quelques réflexions rapides avant de les oublier. Le libellé 'HRV ms RMSSD' sur le dashboard — personne ne comprend ça. Personne. Ni les RH, ni les salariés, ni même moi quand j'ai testé pour la première fois. On a une donnée qui a de la valeur scientifique réelle et on l'affiche avec le jargon d'une publication clinique. C'est un problème éditorial autant qu'un problème UX. Je propose qu'on passe à 'Récupération de votre système nerveux' avec un code couleur simple vert-orange-rouge personnalisé sur la baseline de l'utilisateur. Deuxième point : les alertes. On utilise des tons rouges et oranges pour tout ce qui dépasse un seuil. Résultat : l'appli ressemble à un tableau de bord d'urgence. Ça génère de l'anxiété, pas de la conscience. Je veux travailler ça avec le designer sur le registre éditorial des notifications."
+    },
+    {
+      "title": "Arbitrage délai — ce que je peux livrer et ce que je ne peux pas",
+      "author": "Théo Marczak",
+      "role": "CEO, Lumio Health",
+      "date": "13 mars 2025",
+      "context": "mémo de direction, usage interne",
+      "durationSec": 57,
+      "transcript": "Je pose ça pour avoir une trace. La revue Northgate est dans 47 jours. Yassine a rendu les résultats des premiers tests. C'est encourageant sur l'onboarding — 75 % de complétion contre 33 % avant. Mais le graphique de variabilité cardiaque reste incompris par 6 testeurs sur 8. Et le swipe d'activation n'est pas intuitif. Jakob attend des chiffres, pas un narratif. On a besoin d'un second cycle de tests avant le 30 avril — ça veut dire que les maquettes corrigées doivent être en main le 2 avril au plus tard. Le designer externe est la variable critique. Si on n'a pas sa disponibilité confirmée jeudi, je prends la décision de recentrer sur les deux correctifs critiques et de geler tout le reste. L'accessibilité RGAA n'est pas négociable — Camille a raison là-dessus. On ne sacrifie pas ça pour tenir un délai. Point."
+    }
+  ],
   "slack": {
     "workspace": "Lumio Health",
     "channels": [
