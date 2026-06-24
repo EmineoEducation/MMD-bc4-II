@@ -348,17 +348,13 @@ window.LUMIO_DATA = {
             "kind": "mail",
             "name": "URGENT — Refonte UX",
             "app": "mail",
-            "props": {
-              "docId": "DOC-01"
-            }
+            "props": { "openId": "DOC-01" }
           },
           {
             "kind": "pdf",
             "name": "Rapport analytics Lumio Pulse",
             "app": "pdf",
-            "props": {
-              "docId": "DOC-02"
-            }
+            "props": { "openDoc": "DOC-02" }
           }
         ]
       },
@@ -371,17 +367,13 @@ window.LUMIO_DATA = {
             "kind": "note",
             "name": "Synthèse retours terrain bêta-testeurs",
             "app": "notes",
-            "props": {
-              "docId": "DOC-03"
-            }
+            "props": { "openNote": "DOC-03" }
           },
           {
             "kind": "note",
             "name": "Exigences clients B2B pour",
             "app": "notes",
-            "props": {
-              "docId": "DOC-04"
-            }
+            "props": { "openNote": "DOC-04" }
           }
         ]
       },
@@ -394,17 +386,13 @@ window.LUMIO_DATA = {
             "kind": "pdf",
             "name": "CR — Réunion de",
             "app": "pdf",
-            "props": {
-              "docId": "DOC-05"
-            }
+            "props": { "openDoc": "DOC-05" }
           },
           {
             "kind": "pdf",
             "name": "Résultats tests utilisateurs —",
             "app": "pdf",
-            "props": {
-              "docId": "DOC-06"
-            }
+            "props": { "openDoc": "DOC-06" }
           }
         ]
       },
@@ -417,9 +405,7 @@ window.LUMIO_DATA = {
             "kind": "mail",
             "name": "Attentes Northgate pour la",
             "app": "mail",
-            "props": {
-              "docId": "DOC-07"
-            }
+            "props": { "openId": "DOC-07" }
           }
         ]
       },
@@ -432,9 +418,7 @@ window.LUMIO_DATA = {
             "kind": "pdf",
             "name": "Dashboard KPI UX Lumio",
             "app": "pdf",
-            "props": {
-              "docId": "DOC-08"
-            }
+            "props": { "openDoc": "DOC-08" }
           }
         ]
       },
@@ -444,46 +428,46 @@ window.LUMIO_DATA = {
         "icon": "🪪",
         "items": [
           {
-            "kind": "html",
-            "name": "Théo Marczak — CEO",
-            "app": "browser",
-            "props": {
-              "url": "portraits/portrait_theo_marczak.html"
-            }
+                    "kind": "html",
+                    "name": "Théo Marczak — CEO",
+                    "app": "browser",
+                    "props": {
+                              "openPortrait": "theo"
+                    }
           },
           {
-            "kind": "html",
-            "name": "Sonia Ferracci — Dir. Marketing",
-            "app": "browser",
-            "props": {
-              "url": "portraits/portrait_sonia_ferracci.html"
-            }
+                    "kind": "html",
+                    "name": "Sonia Ferracci — Dir. Marketing",
+                    "app": "browser",
+                    "props": {
+                              "openPortrait": "sonia"
+                    }
           },
           {
-            "kind": "html",
-            "name": "Camille Ott — Partenariats B2B",
-            "app": "browser",
-            "props": {
-              "url": "portraits/portrait_camille_ott.html"
-            }
+                    "kind": "html",
+                    "name": "Camille Ott — Partenariats B2B",
+                    "app": "browser",
+                    "props": {
+                              "openPortrait": "camille"
+                    }
           },
           {
-            "kind": "html",
-            "name": "Yassine Morel — Content Manager",
-            "app": "browser",
-            "props": {
-              "url": "portraits/portrait_yassine_morel.html"
-            }
+                    "kind": "html",
+                    "name": "Yassine Morel — Content Manager",
+                    "app": "browser",
+                    "props": {
+                              "openPortrait": "yassine"
+                    }
           },
           {
-            "kind": "html",
-            "name": "Jakob Rein — Northgate Capital",
-            "app": "browser",
-            "props": {
-              "url": "portraits/portrait_jakob_rein.html"
-            }
+                    "kind": "html",
+                    "name": "Jakob Rein — Northgate Capital",
+                    "app": "browser",
+                    "props": {
+                              "openPortrait": "jakob"
+                    }
           }
-        ]
+          ]
       }
     },
     "order": [
@@ -708,6 +692,14 @@ window.LUMIO_DATA = {
     "body": "Le marché des wearables de santé pèse désormais 4,2 milliards d'euros en Europe, mais la promesse technologique se heurte à un mur : celle de l'expérience utilisateur. Selon Forrester, les interfaces jugées \"trop complexes\" ou \"illisibles\" sont citées dans 64 % des désinstallations précoces. Les utilisateurs, souvent non initiés aux données biométriques, abandonnent face à des dashboards surchargés qu'ils ne comprennent pas. Ce constat alarmant intervient alors que plusieurs fonds d'investissement spécialisés dans la healthtech indiquent revoir leurs critères d'évaluation : la rétention applicative devient un indicateur de due diligence au même titre que le chiffre d'affaires. \"Un produit hardware sans expérience digitale cohérente n'est plus finançable\", tranche un partner d'un fonds européen contacté par Les Échos, sous couvert d'anonymat. Pour les jeunes pousses qui s'apprêtent à défendre leur bilan devant leurs actionnaires ce printemps, le message est sans ambiguïté : soigner l'interface ou disparaître."
   }
 };
+
+
+// ── Correctifs RETEX juin 2026 ── injectés après LUMIO_DATA ──────────────
+if (!window.LUMIO_DATA.finder.folders.mission) { window.LUMIO_DATA.finder.folders.mission = {"title": "Mission — Dossier complet", "sidebar": "Mission", "icon": "🗂", "items": [{"kind": "folder", "name": "Acte 1 — Ancrage", "folder": "acte1"}, {"kind": "folder", "name": "Acte 2 — Entrée affaire", "folder": "acte2"}, {"kind": "folder", "name": "Acte 3 — Diagnostic", "folder": "acte3"}, {"kind": "folder", "name": "Acte 4 — Production", "folder": "acte4"}, {"kind": "folder", "name": "Acte 5 — Réflexion", "folder": "acte5"}, {"kind": "folder", "name": "Portraits équipe", "folder": "portraits"}]}; }
+if (!window.LUMIO_DATA.finder.order.includes('mission')) { var _o=window.LUMIO_DATA.finder.order; window.LUMIO_DATA.finder.order = ['guide','mission',..._o.filter(x=>x!=='guide')]; }
+if (!window.LUMIO_DATA.portraits || !window.LUMIO_DATA.portraits.length) { window.LUMIO_DATA.portraits = [{"key": "theo", "id": "portrait-theo", "title": "Théo Marczak — CEO", "tabTitle": "Théo Marczak", "favicon": "T", "faviconColor": "#0a3d62", "host": "lusinedigitale.fr", "url": "lusinedigitale.fr/portrait/theo-marczak", "file": "portraits/portrait_theo_marczak.html"}, {"key": "sonia", "id": "portrait-sonia", "title": "Sonia Ferracci — Dir. Marketing", "tabTitle": "Sonia Ferracci", "favicon": "S", "faviconColor": "#a02020", "host": "cbnews.fr", "url": "cbnews.fr/portrait/sonia-ferracci", "file": "portraits/portrait_sonia_ferracci.html"}, {"key": "camille", "id": "portrait-camille", "title": "Camille Ott — Partenariats B2B", "tabTitle": "Camille Ott", "favicon": "C", "faviconColor": "#1a6641", "host": "actionco.fr", "url": "actionco.fr/portrait/camille-ott", "file": "portraits/portrait_camille_ott.html"}, {"key": "yassine", "id": "portrait-yassine", "title": "Yassine Morel — Content Manager", "tabTitle": "Yassine Morel", "favicon": "Y", "faviconColor": "#e85d3a", "host": "maddyness.com", "url": "maddyness.com/portrait/yassine-morel", "file": "portraits/portrait_yassine_morel.html"}, {"key": "jakob", "id": "portrait-jakob", "title": "Jakob Rein — Northgate Capital", "tabTitle": "Jakob Rein", "favicon": "J", "faviconColor": "#1b3a6b", "host": "forbes.fr", "url": "forbes.fr/portrait/jakob-rein", "file": "portraits/portrait_jakob_rein.html"}]; }
+if (!window.LUMIO_DATA.desktopIcons) { window.LUMIO_DATA.desktopIcons = [{"app": "finder", "folder": "mission", "label": "Mission", "kind": "folder"}, {"app": "finder", "folder": "portraits", "label": "Portraits équipe", "kind": "folder"}, {"app": "mail", "label": "Mail", "kind": "app"}, {"app": "slack", "label": "Slack", "kind": "app"}, {"app": "notepad", "label": "Mes notes.txt", "kind": "app"}]; }
+if (!window.LUMIO_DATA.voiceMemos || !window.LUMIO_DATA.voiceMemos.length) { window.LUMIO_DATA.voiceMemos = [{"title": "Débrief RDV — partenaire stratégique", "author": "Camille Ott", "role": "Responsable partenariats B2B", "date": "Mars 2025", "context": "mémo dicté après réunion", "durationSec": 44, "transcript": "Réunion ce matin avec le partenaire clé. Le message principal : ils veulent avancer, mais pas sans voir la certification MDR progresser. Côté budget, la fourchette est réaliste — ils sont prêts à discuter. Ce qui bloque, c'est la souveraineté des données : hébergement France, audit annuel, accès self-service. Je leur ai dit qu'on pouvait s'engager sur ce point d'ici fin mars. À valider avec Théo avant que je confirme."}, {"title": "Note terrain — signaux B2B semaine", "author": "Camille Ott", "role": "Responsable partenariats B2B", "date": "Avril 2025", "context": "mémo dicté en déplacement", "durationSec": 36, "transcript": "Trois signaux forts cette semaine. Un : les DSI bloquent systématiquement sur RGPD dès qu'on parle de wearable — sans hébergement local certifié, on ne passe pas. Deux : le sujet est remonté au niveau comité de direction dans deux entreprises sur trois — la décision n'est plus RH, elle est stratégique. Trois : les mutuelles commencent à nous solliciter directement pour des offres packagées. C'est un canal qu'on n'avait pas prévu et qui mérite qu'on y consacre du temps."}]; }
 
 window.PAC_CONFIG = {
   "bloc": "bc4-ii",
