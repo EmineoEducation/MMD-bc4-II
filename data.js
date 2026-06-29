@@ -348,13 +348,17 @@ window.LUMIO_DATA = {
             "kind": "mail",
             "name": "URGENT — Refonte UX",
             "app": "mail",
-            "props": { "openId": "DOC-01" }
+            "props": {
+              "docId": "DOC-01"
+            }
           },
           {
             "kind": "pdf",
             "name": "Rapport analytics Lumio Pulse",
             "app": "pdf",
-            "props": { "openDoc": "DOC-02" }
+            "props": {
+              "docId": "DOC-02"
+            }
           }
         ]
       },
@@ -367,13 +371,17 @@ window.LUMIO_DATA = {
             "kind": "note",
             "name": "Synthèse retours terrain bêta-testeurs",
             "app": "notes",
-            "props": { "openNote": "DOC-03" }
+            "props": {
+              "docId": "DOC-03"
+            }
           },
           {
             "kind": "note",
             "name": "Exigences clients B2B pour",
             "app": "notes",
-            "props": { "openNote": "DOC-04" }
+            "props": {
+              "docId": "DOC-04"
+            }
           }
         ]
       },
@@ -386,13 +394,17 @@ window.LUMIO_DATA = {
             "kind": "pdf",
             "name": "CR — Réunion de",
             "app": "pdf",
-            "props": { "openDoc": "DOC-05" }
+            "props": {
+              "docId": "DOC-05"
+            }
           },
           {
             "kind": "pdf",
             "name": "Résultats tests utilisateurs —",
             "app": "pdf",
-            "props": { "openDoc": "DOC-06" }
+            "props": {
+              "docId": "DOC-06"
+            }
           }
         ]
       },
@@ -405,7 +417,9 @@ window.LUMIO_DATA = {
             "kind": "mail",
             "name": "Attentes Northgate pour la",
             "app": "mail",
-            "props": { "openId": "DOC-07" }
+            "props": {
+              "docId": "DOC-07"
+            }
           }
         ]
       },
@@ -418,7 +432,9 @@ window.LUMIO_DATA = {
             "kind": "pdf",
             "name": "Dashboard KPI UX Lumio",
             "app": "pdf",
-            "props": { "openDoc": "DOC-08" }
+            "props": {
+              "docId": "DOC-08"
+            }
           }
         ]
       },
@@ -428,46 +444,46 @@ window.LUMIO_DATA = {
         "icon": "🪪",
         "items": [
           {
-                    "kind": "html",
-                    "name": "Théo Marczak — CEO",
-                    "app": "browser",
-                    "props": {
-                              "openPortrait": "theo"
-                    }
+            "kind": "html",
+            "name": "Théo Marczak — CEO",
+            "app": "browser",
+            "props": {
+              "url": "portraits/portrait_theo_marczak.html"
+            }
           },
           {
-                    "kind": "html",
-                    "name": "Sonia Ferracci — Dir. Marketing",
-                    "app": "browser",
-                    "props": {
-                              "openPortrait": "sonia"
-                    }
+            "kind": "html",
+            "name": "Sonia Ferracci — Dir. Marketing",
+            "app": "browser",
+            "props": {
+              "url": "portraits/portrait_sonia_ferracci.html"
+            }
           },
           {
-                    "kind": "html",
-                    "name": "Camille Ott — Partenariats B2B",
-                    "app": "browser",
-                    "props": {
-                              "openPortrait": "camille"
-                    }
+            "kind": "html",
+            "name": "Camille Ott — Partenariats B2B",
+            "app": "browser",
+            "props": {
+              "url": "portraits/portrait_camille_ott.html"
+            }
           },
           {
-                    "kind": "html",
-                    "name": "Yassine Morel — Content Manager",
-                    "app": "browser",
-                    "props": {
-                              "openPortrait": "yassine"
-                    }
+            "kind": "html",
+            "name": "Yassine Morel — Content Manager",
+            "app": "browser",
+            "props": {
+              "url": "portraits/portrait_yassine_morel.html"
+            }
           },
           {
-                    "kind": "html",
-                    "name": "Jakob Rein — Northgate Capital",
-                    "app": "browser",
-                    "props": {
-                              "openPortrait": "jakob"
-                    }
+            "kind": "html",
+            "name": "Jakob Rein — Northgate Capital",
+            "app": "browser",
+            "props": {
+              "url": "portraits/portrait_jakob_rein.html"
+            }
           }
-          ]
+        ]
       }
     },
     "order": [
@@ -586,35 +602,6 @@ window.LUMIO_DATA = {
     ]
   }
 },
-  "voiceMemos": [
-    {
-      "title": "Réaction post-bêta — ce que j'ai vu sur le terrain",
-      "author": "Camille Ott",
-      "role": "Responsable partenariats B2B",
-      "date": "11 mars 2025",
-      "context": "mémo dicté depuis la voiture, retour terrain client",
-      "durationSec": 52,
-      "transcript": "Je sors du rendez-vous Malakoff Humanis. Ils ont testé la bêta de Lumio Pulse avec 40 salariés sur deux semaines. Le bilan est sans appel : 70 % n'ont pas dépassé l'étape de paramétrage. Leur DRH m'a montré les captures d'écran — c'est dense, c'est technique, ça ressemble à une interface médicale des années 2010. Leur DPO a aussi posé la question de la conformité RGAA — obligation légale pour eux. Sans ça, aucun déploiement possible sur leurs 12 000 salariés. Je remonte ça à Théo et Sonia ce soir. Le produit est bon. L'interface nous tue."
-    },
-    {
-      "title": "Note de design — ce qu'on ne peut pas garder en V2",
-      "author": "Yassine Morel",
-      "role": "Content Manager",
-      "date": "12 mars 2025",
-      "context": "mémo dicté entre deux réunions",
-      "durationSec": 61,
-      "transcript": "Quelques réflexions rapides avant de les oublier. Le libellé 'HRV ms RMSSD' sur le dashboard — personne ne comprend ça. Personne. Ni les RH, ni les salariés, ni même moi quand j'ai testé pour la première fois. On a une donnée qui a de la valeur scientifique réelle et on l'affiche avec le jargon d'une publication clinique. C'est un problème éditorial autant qu'un problème UX. Je propose qu'on passe à 'Récupération de votre système nerveux' avec un code couleur simple vert-orange-rouge personnalisé sur la baseline de l'utilisateur. Deuxième point : les alertes. On utilise des tons rouges et oranges pour tout ce qui dépasse un seuil. Résultat : l'appli ressemble à un tableau de bord d'urgence. Ça génère de l'anxiété, pas de la conscience. Je veux travailler ça avec le designer sur le registre éditorial des notifications."
-    },
-    {
-      "title": "Arbitrage délai — ce que je peux livrer et ce que je ne peux pas",
-      "author": "Théo Marczak",
-      "role": "CEO, Lumio Health",
-      "date": "13 mars 2025",
-      "context": "mémo de direction, usage interne",
-      "durationSec": 57,
-      "transcript": "Je pose ça pour avoir une trace. La revue Northgate est dans 47 jours. Yassine a rendu les résultats des premiers tests. C'est encourageant sur l'onboarding — 75 % de complétion contre 33 % avant. Mais le graphique de variabilité cardiaque reste incompris par 6 testeurs sur 8. Et le swipe d'activation n'est pas intuitif. Jakob attend des chiffres, pas un narratif. On a besoin d'un second cycle de tests avant le 30 avril — ça veut dire que les maquettes corrigées doivent être en main le 2 avril au plus tard. Le designer externe est la variable critique. Si on n'a pas sa disponibilité confirmée jeudi, je prends la décision de recentrer sur les deux correctifs critiques et de geler tout le reste. L'accessibilité RGAA n'est pas négociable — Camille a raison là-dessus. On ne sacrifie pas ça pour tenir un délai. Point."
-    }
-  ],
   "slack": {
     "workspace": "Lumio Health",
     "channels": [
@@ -677,7 +664,7 @@ window.LUMIO_DATA = {
       "date": "2025-03-06",
       "headline": "Applications de santé connectée : l'onboarding, talon d'Achille des medtechs européennes",
       "lede": "Les wearables santé séduisent les directions RH, mais leurs applications compagnons peinent à retenir les utilisateurs au-delà des premières minutes. Un décrochage précoce qui fragilise la promesse clinique et inquiète les investisseurs.",
-      "illustration": "portraits/Theo_Marczak.png",
+      "illustration": "PHOTO ILLUSTRATIVE",
       "body": "Selon une étude publiée en février 2025 par le cabinet Verdant Analytics, 62 % des utilisateurs d'applications de santé connectée abandonnent le parcours d'onboarding avant d'avoir complété leur premier profil biométrique. Un chiffre qui grimpe à 71 % lorsque l'application impose la lecture d'un dashboard de données physiologiques dès la première session.\n\nCe phénomène, désormais documenté sous le terme de « friction cognitive initiale », touche en priorité les acteurs du segment stress et bien-être au travail. Les interfaces héritées des premières versions, conçues pour des profils médical ou RH aguerris, se révèlent inadaptées au grand public comme aux salariés non-initiés que les entreprises clientes cherchent à embarquer.\n\n« Le problème n'est pas le capteur, il est l'écran », résume Anouk Delplanque, UX researcher chez le studio Tangram Health, qui accompagne plusieurs medtechs françaises. « Les équipes produit sous-estiment systématiquement le coût cognitif d'un graphique de variabilité cardiaque affiché sans contexte ni pédagogie. »\n\nLes conséquences dépassent la simple métrique d'usage. Dans un secteur où les levées de fonds sont conditionnées à des preuves d'engagement utilisateur, un NPS négatif ou un taux de rétention inférieur à 40 % à J+7 peut suffire à retarder un tour de table. Plusieurs fonds spécialisés en santé numérique auraient d'ores et déjà intégré des seuils UX contractuels dans leurs term sheets, selon nos informations.\n\nLa réglementation pousse également les acteurs à agir. Le règlement européen sur les dispositifs médicaux (MDR 2017/745) et les recommandations RGAA en matière d'accessibilité numérique imposent une mise à niveau des interfaces, sous peine d'exclusion des marchés publics hospitaliers et des appels d'offres entreprises les plus exigeants.\n\nFace à cette pression convergente, plusieurs startups ont engagé des refontes profondes de leur couche UX/UI, s'appuyant sur des cycles de tests utilisateurs itératifs et des protocoles inspirés du Design Thinking. L'enjeu : transformer un tableau de bord technique en interface conversationnelle, capable de guider un utilisateur stressé sans l'écraser d'indicateurs.\n\n« Nous voyons arriver des briefs de refonte toutes les semaines depuis le début de l'année », confirme Delplanque. « Les équipes qui avaient priorisé la feature velocity sur l'expérience paient maintenant la facture. »\n\nLe marché du wearable santé B2B en Europe devrait atteindre 4,2 milliards d'euros d'ici 2027, selon les projections d'IDC. Mais les analystes s'accordent sur un point : sans une expérience utilisateur radicalement simplifiée, la promesse de prévention des risques psychosociaux portée par ces objets connectés restera lettre morte dans les plans de santé au travail des grandes entreprises."
     }
   ],
@@ -693,36 +680,8 @@ window.LUMIO_DATA = {
   }
 };
 
-
-// ── Correctifs RETEX juin 2026 ── injectés après LUMIO_DATA ──────────────
-if (!window.LUMIO_DATA.finder.folders.mission) { window.LUMIO_DATA.finder.folders.mission = {"title": "Mission — Dossier complet", "sidebar": "Mission", "icon": "🗂", "items": [{"kind": "folder", "name": "Acte 1 — Ancrage", "folder": "acte1"}, {"kind": "folder", "name": "Acte 2 — Entrée affaire", "folder": "acte2"}, {"kind": "folder", "name": "Acte 3 — Diagnostic", "folder": "acte3"}, {"kind": "folder", "name": "Acte 4 — Production", "folder": "acte4"}, {"kind": "folder", "name": "Acte 5 — Réflexion", "folder": "acte5"}, {"kind": "folder", "name": "Portraits équipe", "folder": "portraits"}]}; }
-if (!window.LUMIO_DATA.finder.order.includes('mission')) { var _o=window.LUMIO_DATA.finder.order; window.LUMIO_DATA.finder.order = ['guide','mission',..._o.filter(x=>x!=='guide')]; }
-if (!window.LUMIO_DATA.portraits || !window.LUMIO_DATA.portraits.length) { window.LUMIO_DATA.portraits = [{"key": "theo", "id": "portrait-theo", "title": "Théo Marczak — CEO", "tabTitle": "Théo Marczak", "favicon": "T", "faviconColor": "#0a3d62", "host": "lusinedigitale.fr", "url": "lusinedigitale.fr/portrait/theo-marczak", "file": "portraits/portrait_theo_marczak.html"}, {"key": "sonia", "id": "portrait-sonia", "title": "Sonia Ferracci — Dir. Marketing", "tabTitle": "Sonia Ferracci", "favicon": "S", "faviconColor": "#a02020", "host": "cbnews.fr", "url": "cbnews.fr/portrait/sonia-ferracci", "file": "portraits/portrait_sonia_ferracci.html"}, {"key": "camille", "id": "portrait-camille", "title": "Camille Ott — Partenariats B2B", "tabTitle": "Camille Ott", "favicon": "C", "faviconColor": "#1a6641", "host": "actionco.fr", "url": "actionco.fr/portrait/camille-ott", "file": "portraits/portrait_camille_ott.html"}, {"key": "yassine", "id": "portrait-yassine", "title": "Yassine Morel — Content Manager", "tabTitle": "Yassine Morel", "favicon": "Y", "faviconColor": "#e85d3a", "host": "maddyness.com", "url": "maddyness.com/portrait/yassine-morel", "file": "portraits/portrait_yassine_morel.html"}, {"key": "jakob", "id": "portrait-jakob", "title": "Jakob Rein — Northgate Capital", "tabTitle": "Jakob Rein", "favicon": "J", "faviconColor": "#1b3a6b", "host": "forbes.fr", "url": "forbes.fr/portrait/jakob-rein", "file": "portraits/portrait_jakob_rein.html"}]; }
-if (!window.LUMIO_DATA.desktopIcons) { window.LUMIO_DATA.desktopIcons = [{"app": "finder", "folder": "mission", "label": "Mission", "kind": "folder"}, {"app": "finder", "folder": "portraits", "label": "Portraits équipe", "kind": "folder"}, {"app": "mail", "label": "Mail", "kind": "app"}, {"app": "slack", "label": "Slack", "kind": "app"}, {"app": "notepad", "label": "Mes notes.txt", "kind": "app"}]; }
-if (!window.LUMIO_DATA.voiceMemos || !window.LUMIO_DATA.voiceMemos.length) { window.LUMIO_DATA.voiceMemos = [{"title": "Débrief RDV — partenaire stratégique", "author": "Camille Ott", "role": "Responsable partenariats B2B", "date": "Mars 2025", "context": "mémo dicté après réunion", "durationSec": 44, "transcript": "Réunion ce matin avec le partenaire clé. Le message principal : ils veulent avancer, mais pas sans voir la certification MDR progresser. Côté budget, la fourchette est réaliste — ils sont prêts à discuter. Ce qui bloque, c'est la souveraineté des données : hébergement France, audit annuel, accès self-service. Je leur ai dit qu'on pouvait s'engager sur ce point d'ici fin mars. À valider avec Théo avant que je confirme."}, {"title": "Note terrain — signaux B2B semaine", "author": "Camille Ott", "role": "Responsable partenariats B2B", "date": "Avril 2025", "context": "mémo dicté en déplacement", "durationSec": 36, "transcript": "Trois signaux forts cette semaine. Un : les DSI bloquent systématiquement sur RGPD dès qu'on parle de wearable — sans hébergement local certifié, on ne passe pas. Deux : le sujet est remonté au niveau comité de direction dans deux entreprises sur trois — la décision n'est plus RH, elle est stratégique. Trois : les mutuelles commencent à nous solliciter directement pour des offres packagées. C'est un canal qu'on n'avait pas prévu et qui mérite qu'on y consacre du temps."}]; }
-
 window.PAC_CONFIG = {
   "bloc": "bc4-ii",
-  accroche_namescreen: {
-    "subtitle": "Design & expérience utilisateur (UX/UI)",
-    "role": "consultant·e UX/UI",
-    "intro": "Tu es {{STUDENT}}, consultant·e UX/UI chez Lumio Health pour la refonte de l'application wearable de gestion du stress (Projet Lumio Pulse). Études utilisateurs, prototypage, optimisation UX, normes d'accessibilité, collaboration développeurs, KPI : tu produis la proposition d'optimisation du design et de l'expérience utilisateur (E4-II).",
-    "ratio_label": "3 semaines dans la vraie vie",
-    "regles": [
-      {
-        "ico": "📄",
-        "txt": "Tout ce que tu sais, c'est dans les documents UX et les retours utilisateurs du poste de mission."
-      },
-      {
-        "ico": "🤐",
-        "txt": "Le jury évalue tes prototypes, l'optimisation UX mesurée et le respect des normes d'accessibilité."
-      },
-      {
-        "ico": "💬",
-        "txt": "Quand tu as une piste UX solide → Slack → ton commanditaire. Sa réaction débloque la suite."
-      }
-    ]
-  },
   "titre": "Concevoir et optimiser le design et l'expérience utilisateur des interfaces digitales au service d'un commanditaire",
   "epreuve": "E4-II. Proposition d'optimisation du design et de l'expérience utilisateur (UX/UI)",
   "deadline": "14 mars 2025 · 18h00",
@@ -910,3 +869,10 @@ window.PAC_CONFIG = {
 };
 // Alias de compatibilité
 window.PASS_CONFIG = window.PAC_CONFIG;
+
+// [PATCH] Correction bug #1 — voiceMemos fallback pour app-voice.jsx
+// Ces PAC n'utilisent pas l'app Mémos vocaux comme source narrative principale
+// → tableau vide pour éviter le crash au chargement
+if (window.LUMIO_DATA && !window.LUMIO_DATA.voiceMemos && !window.LUMIO_DATA.camilleVerbatims) {
+  window.LUMIO_DATA.voiceMemos = [];
+}
