@@ -32,7 +32,7 @@ export default async function handler(req, res) {
 
   if (!id) return res.status(400).json({ error: 'Session id required' });
 
-  const key = `mmd:bc4-ii:session:${id}`;
+  const key = `lumio:bc4-ii:session:${id}`;
 
   try {
     // ── GET — restaurer la session ──────────────────────────
