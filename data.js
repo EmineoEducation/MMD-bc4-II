@@ -602,6 +602,35 @@ window.LUMIO_DATA = {
     ]
   }
 },
+  "voiceMemos": [
+    {
+      "title": "Réaction post-bêta — ce que j'ai vu sur le terrain",
+      "author": "Camille Ott",
+      "role": "Responsable partenariats B2B",
+      "date": "11 mars 2025",
+      "context": "mémo dicté depuis la voiture, retour terrain client",
+      "durationSec": 52,
+      "transcript": "Je sors du rendez-vous Malakoff Humanis. Ils ont testé la bêta de Lumio Pulse avec 40 salariés sur deux semaines. Le bilan est sans appel : 70 % n'ont pas dépassé l'étape de paramétrage. Leur DRH m'a montré les captures d'écran — c'est dense, c'est technique, ça ressemble à une interface médicale des années 2010. Leur DPO a aussi posé la question de la conformité RGAA — obligation légale pour eux. Sans ça, aucun déploiement possible sur leurs 12 000 salariés. Je remonte ça à Théo et Sonia ce soir. Le produit est bon. L'interface nous tue."
+    },
+    {
+      "title": "Note de design — ce qu'on ne peut pas garder en V2",
+      "author": "Yassine Morel",
+      "role": "Content Manager",
+      "date": "12 mars 2025",
+      "context": "mémo dicté entre deux réunions",
+      "durationSec": 61,
+      "transcript": "Quelques réflexions rapides avant de les oublier. Le libellé 'HRV ms RMSSD' sur le dashboard — personne ne comprend ça. Personne. Ni les RH, ni les salariés, ni même moi quand j'ai testé pour la première fois. On a une donnée qui a de la valeur scientifique réelle et on l'affiche avec le jargon d'une publication clinique. C'est un problème éditorial autant qu'un problème UX. Je propose qu'on passe à 'Récupération de votre système nerveux' avec un code couleur simple vert-orange-rouge personnalisé sur la baseline de l'utilisateur. Deuxième point : les alertes. On utilise des tons rouges et oranges pour tout ce qui dépasse un seuil. Résultat : l'appli ressemble à un tableau de bord d'urgence. Ça génère de l'anxiété, pas de la conscience. Je veux travailler ça avec le designer sur le registre éditorial des notifications."
+    },
+    {
+      "title": "Arbitrage délai — ce que je peux livrer et ce que je ne peux pas",
+      "author": "Théo Marczak",
+      "role": "CEO, Lumio Health",
+      "date": "13 mars 2025",
+      "context": "mémo de direction, usage interne",
+      "durationSec": 57,
+      "transcript": "Je pose ça pour avoir une trace. La revue Northgate est dans 47 jours. Yassine a rendu les résultats des premiers tests. C'est encourageant sur l'onboarding — 75 % de complétion contre 33 % avant. Mais le graphique de variabilité cardiaque reste incompris par 6 testeurs sur 8. Et le swipe d'activation n'est pas intuitif. Jakob attend des chiffres, pas un narratif. On a besoin d'un second cycle de tests avant le 30 avril — ça veut dire que les maquettes corrigées doivent être en main le 2 avril au plus tard. Le designer externe est la variable critique. Si on n'a pas sa disponibilité confirmée jeudi, je prends la décision de recentrer sur les deux correctifs critiques et de geler tout le reste. L'accessibilité RGAA n'est pas négociable — Camille a raison là-dessus. On ne sacrifie pas ça pour tenir un délai. Point."
+    }
+  ],
   "slack": {
     "workspace": "Lumio Health",
     "channels": [
@@ -664,7 +693,7 @@ window.LUMIO_DATA = {
       "date": "2025-03-06",
       "headline": "Applications de santé connectée : l'onboarding, talon d'Achille des medtechs européennes",
       "lede": "Les wearables santé séduisent les directions RH, mais leurs applications compagnons peinent à retenir les utilisateurs au-delà des premières minutes. Un décrochage précoce qui fragilise la promesse clinique et inquiète les investisseurs.",
-      "illustration": "PHOTO ILLUSTRATIVE",
+      "illustration": "portraits/Theo_Marczak.png",
       "body": "Selon une étude publiée en février 2025 par le cabinet Verdant Analytics, 62 % des utilisateurs d'applications de santé connectée abandonnent le parcours d'onboarding avant d'avoir complété leur premier profil biométrique. Un chiffre qui grimpe à 71 % lorsque l'application impose la lecture d'un dashboard de données physiologiques dès la première session.\n\nCe phénomène, désormais documenté sous le terme de « friction cognitive initiale », touche en priorité les acteurs du segment stress et bien-être au travail. Les interfaces héritées des premières versions, conçues pour des profils médical ou RH aguerris, se révèlent inadaptées au grand public comme aux salariés non-initiés que les entreprises clientes cherchent à embarquer.\n\n« Le problème n'est pas le capteur, il est l'écran », résume Anouk Delplanque, UX researcher chez le studio Tangram Health, qui accompagne plusieurs medtechs françaises. « Les équipes produit sous-estiment systématiquement le coût cognitif d'un graphique de variabilité cardiaque affiché sans contexte ni pédagogie. »\n\nLes conséquences dépassent la simple métrique d'usage. Dans un secteur où les levées de fonds sont conditionnées à des preuves d'engagement utilisateur, un NPS négatif ou un taux de rétention inférieur à 40 % à J+7 peut suffire à retarder un tour de table. Plusieurs fonds spécialisés en santé numérique auraient d'ores et déjà intégré des seuils UX contractuels dans leurs term sheets, selon nos informations.\n\nLa réglementation pousse également les acteurs à agir. Le règlement européen sur les dispositifs médicaux (MDR 2017/745) et les recommandations RGAA en matière d'accessibilité numérique imposent une mise à niveau des interfaces, sous peine d'exclusion des marchés publics hospitaliers et des appels d'offres entreprises les plus exigeants.\n\nFace à cette pression convergente, plusieurs startups ont engagé des refontes profondes de leur couche UX/UI, s'appuyant sur des cycles de tests utilisateurs itératifs et des protocoles inspirés du Design Thinking. L'enjeu : transformer un tableau de bord technique en interface conversationnelle, capable de guider un utilisateur stressé sans l'écraser d'indicateurs.\n\n« Nous voyons arriver des briefs de refonte toutes les semaines depuis le début de l'année », confirme Delplanque. « Les équipes qui avaient priorisé la feature velocity sur l'expérience paient maintenant la facture. »\n\nLe marché du wearable santé B2B en Europe devrait atteindre 4,2 milliards d'euros d'ici 2027, selon les projections d'IDC. Mais les analystes s'accordent sur un point : sans une expérience utilisateur radicalement simplifiée, la promesse de prévention des risques psychosociaux portée par ces objets connectés restera lettre morte dans les plans de santé au travail des grandes entreprises."
     }
   ],
@@ -682,6 +711,26 @@ window.LUMIO_DATA = {
 
 window.PAC_CONFIG = {
   "bloc": "bc4-ii",
+  accroche_namescreen: {
+    "subtitle": "Design & expérience utilisateur (UX/UI)",
+    "role": "consultant·e UX/UI",
+    "intro": "Tu es {{STUDENT}}, consultant·e UX/UI chez Lumio Health pour la refonte de l'application wearable de gestion du stress (Projet Lumio Pulse). Études utilisateurs, prototypage, optimisation UX, normes d'accessibilité, collaboration développeurs, KPI : tu produis la proposition d'optimisation du design et de l'expérience utilisateur (E4-II).",
+    "ratio_label": "3 semaines dans la vraie vie",
+    "regles": [
+      {
+        "ico": "📄",
+        "txt": "Tout ce que tu sais, c'est dans les documents UX et les retours utilisateurs du poste de mission."
+      },
+      {
+        "ico": "🤐",
+        "txt": "Le jury évalue tes prototypes, l'optimisation UX mesurée et le respect des normes d'accessibilité."
+      },
+      {
+        "ico": "💬",
+        "txt": "Quand tu as une piste UX solide → Slack → ton commanditaire. Sa réaction débloque la suite."
+      }
+    ]
+  },
   "titre": "Concevoir et optimiser le design et l'expérience utilisateur des interfaces digitales au service d'un commanditaire",
   "epreuve": "E4-II. Proposition d'optimisation du design et de l'expérience utilisateur (UX/UI)",
   "deadline": "14 mars 2025 · 18h00",
@@ -869,10 +918,3 @@ window.PAC_CONFIG = {
 };
 // Alias de compatibilité
 window.PASS_CONFIG = window.PAC_CONFIG;
-
-// [PATCH] Correction bug #1 — voiceMemos fallback pour app-voice.jsx
-// Ces PAC n'utilisent pas l'app Mémos vocaux comme source narrative principale
-// → tableau vide pour éviter le crash au chargement
-if (window.LUMIO_DATA && !window.LUMIO_DATA.voiceMemos && !window.LUMIO_DATA.camilleVerbatims) {
-  window.LUMIO_DATA.voiceMemos = [];
-}
