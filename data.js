@@ -1032,3 +1032,19 @@ window.PASS_CONFIG = window.PAC_CONFIG;
 };
 })();
 // === [Audit MMD] fin ===
+
+// === [Carte portfolio] — 05/08/2026 · contenu propre au bloc, ajout non destructif ===
+(function () {
+  var c = window.PAC_CONFIG || window.PASS_CONFIG;
+  if (!c) return;
+  c.portfolio = {
+    missionTitre: "Refondre une expérience utilisateur sur preuves",
+    miseEnSituation: "L'application qui accompagne le bracelet perd ses utilisateurs après les premiers jours : l'onboarding est long, le tableau de bord du stress est illisible pour les nouveaux venus, et aucune norme d'accessibilité n'a été appliquée aux écrans existants.",
+    choix: "Une refonte conduite sur données d'usage plutôt que sur intuition : recherche utilisateurs préalable, prototypes annotés de l'onboarding et du tableau de bord, tests sur maquettes, et critères d'accessibilité intégrés aux spécifications remises aux développeurs.",
+    justification: "Redessiner sans mesurer déplace le problème d'un écran à l'autre ; partir des comportements observés et vérifier les gains sur des indicateurs définis avant la refonte est ce qui rend les arbitrages de design défendables.",
+    imageSrc: ""
+  };
+  window.PAC_CONFIG = c;
+  window.PASS_CONFIG = c;
+})();
+// === [Carte portfolio] fin ===
